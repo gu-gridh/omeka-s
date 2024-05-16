@@ -78,6 +78,40 @@ Omeka development adheres to the [Laminas Coding Style Guide](https://docs.lamin
 
 See the [developer documentation](https://omeka.org/s/docs/developer/) for more information.
 
+## Fields used
+
+### Work DI
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel | Title | Verkets titel, lägg in på orginalspråk, engelska och eventuellt svenska. Glöm inte språkkod. | dcterms:title  |
+| Translittererad titel | har parallel title proper | För titlar på icke-latinskt alfabet som translittererats | rdau:P60589 |
+| Alternativ titel  | Alternative title  | Alternativ titel eller undertitel | dcterms:alternative |
+| Contributer | Medverkande | Medverkande till verket. Annotera med roll. | dcterms:contributer |
+| Skapelsedatum | Date created | Tidpunkt då verket skrev. För verk som ej getts ut förrän senare. | dcterms:created |
+| Utgivningsland | Spatial coverage | Land där verket först gavs ut | dcterms:spatial |
+| Orginalspråk | Language | Orginalspråk verket skrevs på |dcterms:language |
+| Beskrivning | Description | Beskrivning av verket | dcterms:description |
+| Genre/form  | Genre/form | Ange genre/form  |  bf:genreForm |
+| Ämne | Subject | Ämnesord | dcterms:subject |
+| Intern anteckning | Note | Anteckna om verket finns på DI-biblioteket |bf:note |
+| Libris-länk | uri | Länk till Libris instans med flest bestånd | bibo:uri |
+|  Målgrupp | has intended audience | Tilltänkt målgrupp | rdau:P60520 |
+
+
+### Work Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel | Title | Titeln på svenska | dcterms:title | 
+| Alternativ titel | Alternative title | Undertitel eller orginaltitel. Annotera typ av titel. | dcterms:alternative |
+| Beskrivning | Description | Beskrivning av resursen. | dcterms:description |
+| Orginalspråk | Language | Verkets orginalspråk | dcterms:language |
+| Medverkande | Contributer | Medverkande till det kreativa konceptet,  lägg in annotering för roll. | dcterms:contributer |
+|  |  |  | |
+
+
+
 # Copyright
 
 Omeka is Copyright © 2015-present Corporation for Digital Scholarship, Vienna, Virginia, USA http://digitalscholar.org
