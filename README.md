@@ -98,6 +98,17 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Libris-länk | uri | Länk till Libris instans med flest bestånd | bibo:uri |
 |  Målgrupp | has intended audience | Tilltänkt målgrupp | rdau:P60520 |
 
+### Finding aid Saga
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel/Namn | Title | Namn på arkivet/arkivförteckningen | dcterms:title |
+| Beskrivning | Description | Beskrivning av resursen | dcterms:description |
+| Har del | Has Part | En relaterad resurs som är inkluderad, antingen fysiskt eller logiskt, i arkivförteckningen. | dcterms:hasPart |
+| Arkiv-ID | Identifier | Arkiv-ID i Sagas, eller annat, arkiv | dcterms:identifier |
+| Anteckningar | note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
+| Typ: Arkivförteckning | has category of resource | Alltid Arkivförteckning | rdau:P60058 |
+
+
 
 ### Creative concept Saga
 
@@ -159,6 +170,32 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Arkiv-ID | Identifier | Arkiv-ID i Sagas, eller annat, arkiv | dcterms:identifier |
 | Anteckningar om texten | note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
 | Typ: Sagatext | has category of resource | Alltid sagatect | rdau:P60058 |
+
+### Event Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Namn | Title | Händelsens namn| dcterms:title | 
+| Beskrivning | Description | Beskrivning av resursen. | dcterms:description |
+| Typ av händelse | Type | Fyll i typ av händelse, t.ex. Tävling | dcterms:type |
+| Medverkande | Contributer | Medverkande till/vid händelsen | dcterms:contributer |
+| Tid | Temporal Coverage | Datum eller tidsintervall då händelsen ägde rum | dcterms:temporal |
+| Plats | Spatial Coverage | Plats där händelsen ägde rum | dcterms:spatial |
+| Anteckningar| note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
+| Typ: Händelse | has category of resource | Alltid Händelse | rdau:P60058 |
+
+### Document Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Arkiv-ID | Identifier | Arkiv-ID i Sagas, eller annat, arkiv | dcterms:identifier |
+| Titel/Namn | Title | Handlingens namn/rubrik/titel | dcterms:title |
+| Beskrivning | Description | Beskrivning av handlingen | dcterms:description |
+| Del av | Is Part Of | En relaterad resurs som handlingen är en del av, logiskt eller fysiskt. | |
+| Typ av händelse | Type | Fyll i typ av handling, t.ex. Ekonomiska handlingar | dcterms:type |
+|  |  |  | |
+|  |  |  | |
+|  |  |  | |
 
 
 # Copyright
