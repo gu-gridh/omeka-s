@@ -99,7 +99,7 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 |  Målgrupp | has intended audience | Tilltänkt målgrupp | rdau:P60520 |
 
 
-### Work Saga
+### Creative concept Saga
 
 | Name (sv)          | Original name | Description  (sv)  | Field used     |
 | -------------- | -------------- | -------------- | -------------- |
@@ -110,6 +110,53 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Medverkande | Contributer | Medverkande till det kreativa konceptet,  lägg in annotering för roll. | dcterms:contributer |
 |  |  |  | |
 
+### Work Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel | Title | Verkets titel | dcterms:title |
+| Nummer | number | Nummer i Sagaserien | bibo:number |
+| Är en del av | Is Part Of | Den relaterade publikationsserien som verket tillhör | dcterms:isPartOf |
+| Beskrivning | Description | Beskrivning av verket. | dcterms:description |
+| Typ: Verk | has category of resource | Alltid Verk | rdau:P60058 |
+
+### Edition Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel | Title | Resursens namn | dcterms:title |
+| Undertitel/Alternativ titel | Alternative Title | Undertitel eller orginaltitel. Annotera typ av titel. | dcterms:alternative |
+| Format | Format | Utgåvans fusiska format | dcterms:format |
+| Upplaga | edition | Ange nummer på upplagan | bibo:edition |
+| Beskrivning | Description | Beskrivning av utgåvan. Lägg in omslagstext och baksides text. Annotera med typ av text. | dcterms:description |
+| Utgivningsdatum | Date Issued | Utgivningsdatum eller år | dcterms:issued |
+| ISBN | isbn | - | bibo:isbn |
+| Medverkande | Contributer | Medverkande till utgåvan, lägg in annotering för roll. | dcterms:contributer |
+| Antal sidor | number of pages | Antal sidor i utgåvan | bibo:numPages|
+| Är del av | Is Part Of | Sagatexten som utgåvan relateras till.  | dcterms:isPartOf |
+| Libris-länk | uri | Fyll i Libris-länken för resursen | bibo:uri |
+| Anteckningar om utgåvan | has note on resource | Annotera vilken typ av anteckning det är | rdau:P60470 |
+| Efterföljs av | is succeeded by | Efterföljande utgivning. Ex: utgåva 1 av Saga 4 efterföljs av utgåva 2 av Saga 4. | rdau:P60278 |
+| Arkiv-ID | Identifier | Ange internt arkiv-ID | dcterms:identifier |
+| Typ: Utgåva | has category of resource | Alltid utgåva | rdau:P60058 |
+|  |  |  | |
+
+### Sagatext Saga
+
+| Name (sv)          | Original name | Description  (sv)  | Field used     |
+| -------------- | -------------- | -------------- | -------------- |
+| Titel | Title | Sagatextens namn | dcterms:title |
+| Undertitel/Alternativ titel | Alternative Title | Undertitel eller orginaltitel. Annotera typ av titel. | dcterms:alternative |
+| Beskrivning | Description | Beskrivning av sagatexten | dcterms:description |
+| Medverkande | Contributer | Medverkande till sagatexten, lägg in annotering för roll. | dcterms:contributer |
+| Startsida | page start | Första paginerade sidan | bibo:pageStart |
+| Slutsida | page end | Sista paginerade sidan | bibo:pageEnd |
+| Antal sidor | number of pages | Totalt antal sidor för sagatexten | bibo:numPages |
+| Har illustrationer | has illustrations | Länka till inkluderade illustrationer | rdau:P60182 |
+| Del av  | Is Part Of | Länka till relaterad(e) resurs(er) där Sagatexten är publicerad | dcterms:isPartOf |
+| Arkiv-ID | Identifier | Arkiv-ID i Sagas, eller annat, arkiv | dcterms:identifier |
+| Anteckningar om texten | note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
+| Typ: Sagatext | has category of resource | Alltid sagatect | rdau:P60058 |
 
 
 # Copyright
