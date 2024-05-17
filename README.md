@@ -115,8 +115,10 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Name (sv)          | Original name | Description  (sv)  | Field used     |
 | -------------- | -------------- | -------------- | -------------- |
 | Titel | Title | Verkets titel | dcterms:title |
+| Alternativ titel | Alternative title | Undertitel eller orginaltitel. Annotera typ av titel. | dcterms:alternative |
 | Nummer | number | Nummer i Sagaserien | bibo:number |
 | Är en del av | Is Part Of | Den relaterade publikationsserien som verket tillhör | dcterms:isPartOf |
+| Relaterade resurser | Related resource | Relaterade verk eller sagatexter, t.ex. en annan samling med folksagor eller dylikt. | bf:relatedTo |
 | Beskrivning | Description | Beskrivning av verket. | dcterms:description |
 | Typ: Verk | has category of resource | Alltid Verk | rdau:P60058 |
 
