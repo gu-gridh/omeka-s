@@ -119,7 +119,7 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Beskrivning | Description | Beskrivning av resursen. | dcterms:description |
 | Orginalspråk | Language | Verkets orginalspråk | dcterms:language |
 | Medverkande | Contributer | Medverkande till det kreativa konceptet,  lägg in annotering för roll. | dcterms:contributer |
-| Anteckningar om konceptet | has note on resource | Annotera vilken typ av anteckning det är | rdau:P60470 |
+| Anteckningar | note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
 | Typ: Verk | has category of resource | Alltid Verk | rdau:P60058 |
 
 ### Work Saga
@@ -130,8 +130,9 @@ See the [developer documentation](https://omeka.org/s/docs/developer/) for more 
 | Alternativ titel | Alternative title | Undertitel eller orginaltitel. Annotera typ av titel. | dcterms:alternative |
 | Nummer | number | Nummer i Sagaserien | bibo:number |
 | Är en del av | Is Part Of | Den relaterade publikationsserien som verket tillhör | dcterms:isPartOf |
-| Relaterade resurser | Related resource | Relaterade verk eller sagatexter, t.ex. en annan samling med folksagor eller dylikt. | bf:relatedTo |
 | Beskrivning | Description | Beskrivning av verket. | dcterms:description |
+| Relaterade resurser | Related resource | Relaterade verk eller sagatexter, t.ex. en annan samling med folksagor eller dylikt. | bf:relatedTo |
+| Anteckningar | note | Lägg olika typer av anteckningar i olika fält. Annotera med typ av anteckning.| skos:note |
 | Typ: Verk | has category of resource | Alltid Verk | rdau:P60058 |
 
 ### Edition Saga
