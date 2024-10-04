@@ -4,6 +4,7 @@
 /build/
 /config/local.config.php
 /config/database.ini
+/config/cleanurl.config.php
 /logs/sql.log
 /logs/application.log
 /files/
