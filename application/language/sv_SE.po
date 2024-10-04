@@ -233,7 +233,7 @@ msgstr "Resursen hittades inte med id %s."
 #: application/view/omeka/site/item/browse.phtml:27
 #: application/view/omeka/site/item/browse.phtml:29
 msgid "Items"
-msgstr "Artiklar"
+msgstr "Resurser"
 
 #: application/src/DataType/Resource/ItemSet.php:27
 msgid "Item Sets"
@@ -568,12 +568,12 @@ msgstr "innehåller inte"
 #: application/src/View/Helper/SearchFilters.php:36
 #: application/view/common/advanced-search/properties.phtml:80
 msgid "starts with"
-msgstr "startar med"
+msgstr "börjar med"
 
 #: application/src/View/Helper/SearchFilters.php:37
 #: application/view/common/advanced-search/properties.phtml:81
 msgid "does not start with"
-msgstr "startar inte med"
+msgstr "börjar inte med"
 
 #: application/src/View/Helper/SearchFilters.php:38
 #: application/view/common/advanced-search/properties.phtml:82
@@ -1096,7 +1096,7 @@ msgstr "Stäng"
 
 #: application/view/common/asset-options.phtml:32
 msgid "Page link"
-msgstr "Sid länk"
+msgstr "Sid-länk"
 
 #: application/view/common/asset-options.phtml:40
 msgid "Alternative link title"
@@ -3403,15 +3403,15 @@ msgstr "Denna webbplats har inga sidor."
 
 #: application/view/omeka/site/item-set/search.phtml:6
 msgid "Advanced item set Search"
-msgstr "Avancerad objektuppsättning sök"
+msgstr "Avancerad sökning i objektuppsättning"
 
 #: application/view/omeka/site/item/browse.phtml:22
 msgid "Item set"
-msgstr "Objektuppsättning"
+msgstr "Samling"
 
 #: application/view/omeka/site/item/show.phtml:10
 msgid "Item"
-msgstr "Artikel"
+msgstr "Resurs"
 
 #: application/view/omeka/site/media/show.phtml:15
 #, php-format
@@ -3479,7 +3479,7 @@ msgstr ""
 
 #: application/src/DataType/Resource/ItemSet.php:17
 msgid "Item Set"
-msgstr "Objektuppsättning"
+msgstr "Samling"
 
 #: application/src/DataType/Resource/AbstractResource.php:23
 msgid "Resource"
@@ -3545,7 +3545,7 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:84
 msgid "Heading"
-msgstr "Heading"
+msgstr "Rubrik"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:88
 msgid "Body"
@@ -3569,7 +3569,7 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/ItemWithMetadata.php:13
 msgid "Item with metadata"
-msgstr "Objekt med metadata"
+msgstr "Resurs med metadata"
 
 #: application/src/Site/BlockLayout/Media.php:14
 msgid "Media embed"
@@ -6502,7 +6502,7 @@ msgstr "Data kodade i en definierad struktur."
 #. Class label for Dublin Core Type:Event
 #. Class label for Bibliographic Ontology:Event
 msgid "Event"
-msgstr "Evenemang"
+msgstr "Händelser"
 
 #. Class comment for Dublin Core Type:Event
 msgid "A non-persistent, time-based occurrence."
