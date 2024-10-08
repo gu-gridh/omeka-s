@@ -72,16 +72,17 @@ $caption = sprintf(
     $objectResource->displayTitle()
 );
 ?>
-<table class="linked-table">
+<div class="linked-table">
     <caption class="linked-resource-property"><?php echo $this->escapeHtml($caption); ?></caption>
-    <tbody>
+    <div>
         <?php foreach ($values as $value): ?>
-        <tr class="linked-resource">
-            <td><?php echo $value['val']->resource()->linkPretty('square', null, null, null, $valueLang); ?></td>
+        <tr class="linked-table">
+            <td class="linked-table"><?php echo $value['val']->resource()->linkPretty('square', null, null, null, $valueLang); ?></td>
+            
         </tr>
         <?php endforeach; ?>
-    </tbody>
-</table>
+        </div>
+        </div>
 <?php endforeach; ?>
 
 <?php echo ($totalCount > $perPage) ? '<div class="linked-footer">' . $pagination . '</div>' : ''; ?>
