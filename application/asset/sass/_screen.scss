@@ -3537,9 +3537,7 @@ input[type=text].query-form-query {
 
 .show .value.resource,
 .show .value.resource .value-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: block;    
 }
 
 .show .value .o-icon-private,
