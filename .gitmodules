@@ -1,0 +1,51 @@
+[submodule "themes/thanksroy"]
+	path = themes/thanksroy
+	url = git@github.com:gu-gridh/thanksroy.git
+[submodule "modules/AdvancedResourceTemplate"]
+	path = modules/AdvancedResourceTemplate
+	url = git@github.com:Daniel-KM/Omeka-S-module-AdvancedResourceTemplate.git
+[submodule "modules/Common"]
+	path = modules/Common
+	url = git@github.com:Daniel-KM/Omeka-S-module-Common.git
+[submodule "modules/AnalyticsSnippet"]
+	path = modules/AnalyticsSnippet
+	url = git@github.com:Daniel-KM/Omeka-S-module-AnalyticsSnippet.git
+[submodule "modules/AnalyticsSnippetPiwik"]
+	path = modules/AnalyticsSnippetPiwik
+	url = git@github.com:Daniel-KM/Omeka-S-module-AnalyticsSnippetPiwik.git
+[submodule "modules/BlockPlus"]
+	path = modules/BlockPlus
+	url = git@github.com:Daniel-KM/Omeka-S-module-BlockPlus.git
+[submodule "modules/CleanUrl"]
+	path = modules/CleanUrl
+	url = git@github.com:Daniel-KM/Omeka-S-module-CleanUrl.git
+[submodule "modules/CopyResources"]
+	path = modules/CopyResources
+	url = git@github.com:omeka-s-modules/CopyResources.git
+[submodule "modules/CSSEditor"]
+	path = modules/CSSEditor
+	url = git@github.com:omeka-s-modules/CSSEditor.git
+[submodule "modules/CSVImport"]
+	path = modules/CSVImport
+	url = git@github.com:omeka-s-modules/CSVImport.git
+[submodule "modules/CustomVocab"]
+	path = modules/CustomVocab
+	url = git@github.com:omeka-s-modules/CustomVocab.git
+[submodule "modules/FacetedBrowse"]
+	path = modules/FacetedBrowse
+	url = git@github.com:omeka-s-modules/FacetedBrowse.git
+[submodule "modules/Mapping"]
+	path = modules/Mapping
+	url = git@github.com:omeka-s-modules/Mapping
+[submodule "modules/InverseProperties"]
+	path = modules/InverseProperties
+	url = git@github.com:omeka-s-modules/InverseProperties
+[submodule "modules/MetadataBrowse"]
+	path = modules/MetadataBrowse
+	url = git@github.com:omeka-s-modules/MetadataBrowse
+[submodule "modules/NumericDataTypes"]
+	path = modules/NumericDataTypes
+	url = git@github.com:omeka-s-modules/NumericDataTypes
+[submodule "modules/FieldsAsTags"]
+	path = modules/FieldsAsTags
+	url = git@github.com:Libnamic/Omeka-S-FieldAsTags.git
