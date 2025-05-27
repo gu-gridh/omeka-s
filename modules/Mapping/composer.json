@@ -1,9 +1,0 @@
-{
-    "require": {
-        "longitude-one/doctrine-spatial": "^3.0"
-    },
-    "provide": {
-        "doctrine/orm": "*",
-        "doctrine/lexer": "*"
-    }
-}
