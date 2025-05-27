@@ -9,7 +9,6 @@
 /logs/application.log
 /files/
 /themes/default
-
 /application/test/config/database.ini
 /application/test/.phpunit.result.cache
 /application/asset/css/font-awesome/
@@ -19,3 +18,4 @@ package-lock.json
 .sass-cache
 .DS_Store
 /application/language/debug.*
+/modules/*
