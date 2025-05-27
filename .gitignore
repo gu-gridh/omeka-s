@@ -8,12 +8,14 @@
 /logs/sql.log
 /logs/application.log
 /files/
+/themes/default
 
 /application/test/config/database.ini
 /application/test/.phpunit.result.cache
 /application/asset/css/font-awesome/
 /vendor/
 /node_modules/
+package-lock.json
 .sass-cache
 .DS_Store
 /application/language/debug.*
