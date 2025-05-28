@@ -18,3 +18,5 @@ package-lock.json
 .sass-cache
 .DS_Store
 /application/language/debug.*
+.htaccess.dist
+/.htaccess.dist
