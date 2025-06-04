@@ -52,3 +52,6 @@
 [submodule "modules/Timeline"]
 	path = modules/Timeline
 	url = git@github.com:Daniel-KM/Omeka-S-module-Timeline.git
+[submodule "modules/ImageAnnotate"]
+	path = modules/ImageAnnotate
+	url = git@github.com:omeka-s-modules/ImageAnnotate.git
