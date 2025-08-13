@@ -1,6 +1,7 @@
 [submodule "themes/freedom"]
 	path = themes/freedom
 	url = git@github.com:gu-gridh/freedom.git
+	branch = saga
 [submodule "modules/AdvancedResourceTemplate"]
 	path = modules/AdvancedResourceTemplate
 	url = git@github.com:Daniel-KM/Omeka-S-module-AdvancedResourceTemplate.git
@@ -55,5 +56,3 @@
 [submodule "modules/ImageAnnotate"]
 	path = modules/ImageAnnotate
 	url = git@github.com:omeka-s-modules/ImageAnnotate.git
-[submodules "themes/freedom"]
-	branch = saga
