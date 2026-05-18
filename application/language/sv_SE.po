@@ -8312,3 +8312,16 @@ msgid ""
 msgstr ""
 "En sträng som uttrycker vad användaren är glad för att allmänheten (normalt)"
 " ska veta om sin nuvarande aktivitet."
+
+#: view/search/facet-select-range.phtml:21
+#: view/search/facet-select-range.phtml:30 view/search/facet-select.phtml:18
+msgid "Select below…"
+msgstr "Välj…"
+
+#: view/search/results-header-footer.phtml:121
+msgid "list"
+msgstr "lista"
+
+#: view/search/results-header-footer.phtml:123
+msgid "grid"
+msgstr "ikoner"
