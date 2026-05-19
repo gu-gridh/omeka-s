@@ -8325,3 +8325,11 @@ msgstr "lista"
 #: view/search/results-header-footer.phtml:123
 msgid "grid"
 msgstr "ikoner"
+
+#: view/search/facets-list.phtml:119
+msgid "See more"
+msgstr "Se mer"
+
+#: view/search/facets-list.phtml:119
+msgid "See less"
+msgstr "Se mindre"
