@@ -8333,3 +8333,11 @@ msgstr "Se mer"
 #: view/search/facets-list.phtml:119
 msgid "See less"
 msgstr "Se mindre"
+
+#: view/search/search.phtml:267
+msgid "The query returned no results"
+msgstr "Sökningen gav inga resultat"
+
+#: view/search/search.phtml:225
+msgid "items"
+msgstr "träffar"
